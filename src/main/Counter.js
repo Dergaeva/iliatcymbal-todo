@@ -7,8 +7,8 @@ export class Counter extends Component {
     }
 
     clickHandler = () => {
+        this.counter = this.counter + 1;
         console.log(this.counter);
-        this.counter--;
     }
 
     render() {
